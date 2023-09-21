@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Feedback() {
+function FeedbackCard() {
   return (
-    <div>Feedback</div>
+    <div>FeedbackCard</div>
   )
 }
 
-export default Feedback
+export default FeedbackCard
