@@ -1,8 +1,11 @@
-import React from 'react'
-
-function Billing() {
-  return (
-    <div>Billing</div>
+import styles, {layout} from "../styles"
+import { apple, bill, google } from "../assets"
+const Billing = () => {
+  (
+    <section 
+    id="product" className={layout.sectionImgReverse}>
+      <img src={bill} alt="" />
+    </section>
   )
 }
 
