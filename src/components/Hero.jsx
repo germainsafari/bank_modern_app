@@ -1,7 +1,7 @@
-import React from 'react'
+
 import styles from '../styles'
 import { discount, robot } from '../assets'
-
+import GetStarted from './GetStarted'
 
 const Hero = () => {
  (
@@ -14,7 +14,17 @@ const Hero = () => {
             <span className='text-white'>20%</span>
             Discount For {""}
             <span className='text-white'> 1 month</span>
+            Account
           </p>
+          <div className='flex flex-row justify-between items-center w-full'>
+          <h1 className='flex-1 font-poppins font-semibold text-[72px] sm:text-[72px] text-[52px] text-white sm:leading-[100px]'>
+              The Next <br className='sm:block'/>
+          </h1>
+
+
+          </div>
+
+
         </div>
       </div>
     </section>

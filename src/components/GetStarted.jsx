@@ -6,4 +6,4 @@ function GetStarted() {
   )
 }
 
-export default GetStarted01
+export default GetStarted
