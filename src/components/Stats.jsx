@@ -8,8 +8,8 @@ const Stats = () => {
     >
       {stats.map((stat) => (
         <div key={stat.id} className=''>
-            <h4>{stat.value}</h4>
-            <p>{stat.title}</p>
+            <h4 className='font-poppins font-semibold xs:text-[40px] text-[30px] xs:leading-[53px] leading-[43px] text-white'>{stat.value}</h4>
+            <p className='font-poppins font-semibold xs:text-[40px] text-[30px] xs:leading-[53px] leading-[43px] text-white'>{stat.title}</p>
         </div>
       ) )}
     </section>

@@ -1,8 +1,10 @@
-import React from 'react'
+import { features } from "../constants";
+import styles,  { layout } from "../styles";
+import Button from './Button';
 
 function Business() {
   return (
-    <div>Business</div>
+    <div className="sm:block hidden">Business</div>
   )
 }
 
