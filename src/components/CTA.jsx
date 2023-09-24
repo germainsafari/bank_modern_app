@@ -1,4 +1,4 @@
-import styles from "../style";
+import styles from "../styles";
 import Button from "./Button";
 
 const CTA = () => (
