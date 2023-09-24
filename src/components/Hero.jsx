@@ -52,6 +52,9 @@ const Hero = () => {
 
       </div>
       </div>
+      <div className='ss:hidden ${styles}'>
+        <GetStarted />
+      </div>
     </section>
   )
 }
